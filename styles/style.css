@@ -1,0 +1,39 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*Определяем стили для элементов класса btn и реакцию на неведения указателя мыши */
+  .btn {
+        width: 60px;
+        height: 60px;
+        background: #1DFAFD;
+        display: inline-block;
+        text-align: center;
+        line-height: 60px;
+        user-select: none;
+    }
+ 
+    .btn:hover {
+        background: #000000;
+        color: #AEEF81;
+    }
+ 
+
+/* Определяем стили для конкретных идентификаторов*/
+    #calc-wrap {
+        padding: 10px;
+        width: 100%;
+        text-align: center;
+        background: #FFF8F8;
+    }
+ 
+    #calc {
+        width: 240px;
+        display: inline-block;
+    }
+ 
+    #inputVal {
+        width: 100%;
+        border: 0;
+        font-size: 16px;
+        resize: vertical;
+    }
